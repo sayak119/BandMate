@@ -1,0 +1,6 @@
+PlayAudio play {Key} at {Tempo}
+PlayAudio play blues in {Key} at {Tempo}
+PlayAudio start playing {Key} at {Tempo}
+PlayAudio start {Key} at {Tempo}
+PlayAudio begin playing {Key} at {Tempo}
+PlayAudio begin {Key} at {Tempo}

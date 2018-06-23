@@ -1,0 +1,327 @@
+{
+  "languageModel": {
+    "types": [
+      {
+        "name": "LIST_OF_KEYS",
+        "values": [
+          {
+            "id": null,
+            "name": {
+              "value": "A",
+              "synonyms": [
+                "A major",
+                "a. major"
+              ]
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "B",
+              "synonyms": [
+                "B major",
+                "b. major"
+              ]
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "C",
+              "synonyms": [
+                "C major",
+                "c. major"
+              ]
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "D",
+              "synonyms": [
+                "D major",
+                "d. major"
+              ]
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "E",
+              "synonyms": [
+                "E major",
+                "e. major"
+              ]
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "F",
+              "synonyms": [
+                "F major",
+                "f. major"
+              ]
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "G",
+              "synonyms": [
+                "G major",
+                "g. major"
+              ]
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Rock",
+              "synonyms": [
+                "Rock beat",
+                "Rock drums",
+                "Drums"
+              ]
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "A flat",
+              "synonyms": [
+                "a. flat",
+                "g. sharp",
+                "g sharp"
+              ]
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "B flat",
+              "synonyms": [
+                "b. flat",
+                "a. sharp",
+                "a sharp"
+              ]
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "D flat",
+              "synonyms": [
+                "c sharp",
+                "c. sharp",
+                "d. flat"
+              ]
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "E flat",
+              "synonyms": [
+                "e. flat",
+                "d. sharp",
+                "d sharp"
+              ]
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "G flat",
+              "synonyms": [
+                "g. flat",
+                "f sharp",
+                "f. sharp"
+              ]
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "metronome",
+              "synonyms": [
+                "click",
+                "click track",
+                "a metronome",
+                "a click track"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "name": "LIST_OF_TEMPOS",
+        "values": [
+          {
+            "id": null,
+            "name": {
+              "value": "80 beats per minute",
+              "synonyms": [
+                "80 bpm",
+                "80",
+                "eighty beats per minute"
+              ]
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "100 beats per minute",
+              "synonyms": [
+                "100 bpm",
+                "100",
+                "one hundred beats per minute"
+              ]
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "60 beats per minute",
+              "synonyms": [
+                "60",
+                "60 bpm",
+                "sixty beats per minute"
+              ]
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "120 beats per minute",
+              "synonyms": [
+                "120",
+                "120 bpm",
+                "one hundred twenty beats per minute"
+              ]
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "140 beats per minute",
+              "synonyms": [
+                "140",
+                "140 bpm",
+                "one hundred forty beats per minute"
+              ]
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "160 beats per minute",
+              "synonyms": [
+                "160",
+                "160 bpm",
+                "one hundred sixty beats per minute"
+              ]
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "180 beats per minute",
+              "synonyms": [
+                "180 bpm",
+                "180",
+                "one hundred eighty beats per minute"
+              ]
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "200 beats per minute",
+              "synonyms": [
+                "200",
+                "200 bpm",
+                "two hundred beats per minute"
+              ]
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "220 beats per minute",
+              "synonyms": [
+                "220",
+                "220 bpm",
+                "two twenty beats per minute"
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "intents": [
+      {
+        "name": "AMAZON.CancelIntent",
+        "samples": []
+      },
+      {
+        "name": "AMAZON.HelpIntent",
+        "samples": []
+      },
+      {
+        "name": "AMAZON.NextIntent",
+        "samples": []
+      },
+      {
+        "name": "AMAZON.NoIntent",
+        "samples": []
+      },
+      {
+        "name": "AMAZON.PauseIntent",
+        "samples": []
+      },
+      {
+        "name": "AMAZON.PreviousIntent",
+        "samples": []
+      },
+      {
+        "name": "AMAZON.ResumeIntent",
+        "samples": []
+      },
+      {
+        "name": "AMAZON.StartOverIntent",
+        "samples": []
+      },
+      {
+        "name": "AMAZON.StopIntent",
+        "samples": []
+      },
+      {
+        "name": "AMAZON.YesIntent",
+        "samples": []
+      },
+      {
+        "name": "PlayAudio",
+        "samples": [
+          "PlayAudio begin {Key} at {Tempo}",
+          "PlayAudio begin playing {Key} at {Tempo}",
+          "PlayAudio start {Key} at {Tempo}",
+          "PlayAudio start playing {Key} at {Tempo}",
+          "PlayAudio play {Key} at {Tempo}",
+          "PlayAudio play blues in {Key} at {Tempo}"
+        ],
+        "slots": [
+          {
+            "name": "Key",
+            "type": "LIST_OF_KEYS"
+          },
+          {
+            "name": "Tempo",
+            "type": "LIST_OF_TEMPOS"
+          }
+        ]
+      }
+    ],
+    "invocationName": "jam tool"
+  }
+}
