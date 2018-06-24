@@ -2,7 +2,7 @@
 
 Your band can't always be there with you when you want to practice. For individual and bands, we bring Band Mate. They can use it to practice their music at various tempos and keys. Use Alexa to help you practice and learn various keys and at various tempos.
 
-## Steps to mkae your own such skill
+## Steps to make your own such skill
 
 * cd js
 
