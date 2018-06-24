@@ -16,7 +16,7 @@ var stateHandlers = {
             //  Change state to START_MODE
             this.handler.state = constants.states.START_MODE;
 
-            var message = 'Welcome. What would you like to play?';
+            var message = 'Welcome to Band Mate. What would you like to play?';
             var reprompt = 'For example, you can say, play A major at 80 beats per minute, to begin.';
 
             this.response.speak(message).listen(reprompt);
