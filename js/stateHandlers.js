@@ -17,7 +17,7 @@ var stateHandlers = {
             this.handler.state = constants.states.START_MODE;
 
             var message = 'Welcome. What would you like to play?';
-            var reprompt = 'For example, you can say, play A minor, to begin.';
+            var reprompt = 'For example, you can say, play A major at 80 beats per minute, to begin.';
 
             this.response.speak(message).listen(reprompt);
             this.emit(':responseReady');
@@ -26,7 +26,7 @@ var stateHandlers = {
             controller.play.call(this);
         },
         'AMAZON.HelpIntent' : function () {
-            var message = 'Welcome to Jam Trax. You can say, play the audio to begin the track.';
+            var message = 'Welcome to Band Mate. You can say, play A major at 80 beats per minute.';
             this.response.speak(message).listen(message);
             this.emit(':responseReady');
         },
@@ -66,8 +66,8 @@ var stateHandlers = {
             var message;
             var reprompt;
             this.handler.state = constants.states.START_MODE;
-            var message = 'Welcome to Jam Trax. You can say, play the audio to begin the track.';
-            var reprompt = 'You can say, play the audio, to begin.';
+            var message = 'Welcome to Band Mate. You can say, play A major at 80 beats per minute.';
+            var reprompt = 'You can ask for playing a key at certain tempo. For example, play A major at 80 beats per minute.';
 
             this.response.speak(message).listen(reprompt);
             this.emit(':responseReady');
@@ -86,7 +86,7 @@ var stateHandlers = {
         'AMAZON.StartOverIntent' : function () { controller.startOver.call(this) },
         'AMAZON.HelpIntent' : function () {
             // This will called while audio is playing and a user says "ask <invocation_name> for help"
-            var message = 'You are listening to Jam Trax. ';
+            var message = 'You are listening to Band Mate. ';
             this.response.speak(message).listen(message);
             this.emit(':responseReady');
         },
